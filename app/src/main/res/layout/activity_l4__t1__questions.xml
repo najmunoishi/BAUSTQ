@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".departments.cse.L4_T1_Questions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/alid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dldid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Artificial Intelligence"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/aldownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/seisid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Software Engineering and Information System"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/seisdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/imid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Industrial Management"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/imdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/aaid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Advanced Algorithms"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/aadownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/bgtid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Basic Graph Theory"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/bgtdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/ftsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Fault Tolerant System"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/ftsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/bmtid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Basic Multimedia Theory"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/bmtdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/dnsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Data and Network Security"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/dnsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/ooseid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Object Oriented Software Engineering"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/oosedownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/annfsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" Artificial Neural Networks and Fuzzy Systems "
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/annfsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/daid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Distributed Algorithms"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/dadownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/bioinformaticsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Bioinformatics"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/bioinformaticsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/roboticsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Robotics"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/roboticsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/mlid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Machine Learning"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/mldownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/asqtid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Applied Statistics and Queuing Theory"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/asqtdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/cgid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Computational Geometry"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/cgdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/dsdid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Digital System Design"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/dsddownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/piesid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Peripherals, Interfacing and Embedded Systems "
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/piesdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/mcaid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Mobile Computing and Applications"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/mcadownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/waid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Web Architecture"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/wadownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/ppdsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Parallel Processing and Distributed System"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/ppdsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

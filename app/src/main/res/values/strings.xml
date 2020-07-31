@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BAUST QUESTION BANK</string>
+    <string name="eee_2105_electronics_i">EEE 2105 (Electronics I)</string>
+    <string name="eee_2107_energy_conversion_i">EEE 2107 (Energy Conversion I)</string>
+    <string name="cse_2109_computer_programming">CSE 2109 (Computer Programming)</string>
+    <string name="math_2111_math_iii_ordinary_and_partial_differential_equation">MATH 2111 (Math III (Ordinary And Partial Differential Equation))</string>
+    <string name="hum_2177_fundamentals_of_economics">HUM 2177 (Fundamentals of Economics)</string>
+
+    <string-array name="lvelterm">
+        <item> Level-1 Term I</item>
+        <item> Level-1 Term II </item>
+        <item> Level-2 Term I </item>
+        <item> Level-2 Term II </item>
+        <item> Level-3 Term I </item>
+        <item> Level-3 Term II </item>
+        <item> Level-4 Term I </item>
+        <item> Level-4 Term II </item>
+    </string-array>
+
+    <string-array name="yearname">
+        <item>Fall -2017</item>
+        <item>Spring -2017</item>
+        <item>Fall -2018</item>
+        <item>Spring -2018</item>
+        <item>Fall -2019</item>
+        <item>Spring -2019</item>
+    </string-array>
+</resources>

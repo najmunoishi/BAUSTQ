@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".departments.eee.EEE_L2_T1_Questions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/EEE2105id"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/eee_2105_electronics_i"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/EEE2105download"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/EEE2107id"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/eee_2107_energy_conversion_i"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/EEE2107download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/CES2109id"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/cse_2109_computer_programming"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/CSE2109download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/MATH2111id"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/math_2111_math_iii_ordinary_and_partial_differential_equation"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/MATH2111download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/HUM2177id"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/hum_2177_fundamentals_of_economics"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/HUM2177download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "730873717177",
+    "firebase_url": "https://baust-question-bank.firebaseio.com",
+    "project_id": "baust-question-bank",
+    "storage_bucket": "baust-question-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730873717177:android:88380fe0d35f75da03d668",
+        "android_client_info": {
+          "package_name": "com.baust.baustquestionbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730873717177-r5tld269u13c0aich88dgl0bd7eaiuo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2rVa4g3zNJGkKV8zYCsHgf3DqwQ6HnoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730873717177-r5tld269u13c0aich88dgl0bd7eaiuo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

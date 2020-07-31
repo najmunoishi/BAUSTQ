@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".departments.cse.L3_T1_Questions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/dmsid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dldid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Database Management Systems"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/dmsdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/malid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Microprocessor and Assembly Language"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/maldownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/caid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Computer Architecture"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/cadownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/ceid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Communication Engineering"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/cedownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:id="@+id/tcid"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Theory of Computation"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/tcdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/setid"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Society Ethics and Technology"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:id="@+id/setdownload"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

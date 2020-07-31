@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".departments.eee.EEE_L1_T2_Questions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/EEE1201id"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="EEE 1201 (Electrical Circuits I)"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/EEE1201download"
+                    android:layout_weight=".5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/PHY1213id"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="PHY 1213 (Physics II)"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/PHY1213download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/MATH1215id"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="MATH 1215 (Math II (Vector Analysis and Matrices))"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/MATH1215download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/ME1263id"
+                    android:gravity="center">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="ME1263 (Fundamentals of Mechanical Engineering)"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/ME1263download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_margin="3dp"
+                android:background="#EAE5E5"
+                android:padding="5dp"
+                android:weightSum="4.5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:id="@+id/HUM1235id"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="HUM 1235 (English)"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight=".5"
+                    android:id="@+id/HUM1235download"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/download_item" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
